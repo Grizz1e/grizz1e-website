@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: rgb(1, 0, 18);
+    background: linear-gradient(90deg, rgba(1, 0, 18, 1) 0%, rgba(4, 4, 60, 1) 35%, rgba(0, 106, 128, 1) 100%);
+}
+
+.navbar {
+    margin: 5vh 0px;
+    height: 15vh;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0px 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.menu-list li {
+    text-align: center;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-list a {
+    text-align: center;
+    text-decoration: none;
+}
+.show-up:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+.show-up {
+    transition: 1s linear;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+.main-logo {
+    height: 50%;
+    border-radius: 100%;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.quote-auth {
+    width: 60%;
+}
+
+#quote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+#author {
+    font-style: italic;
+    text-align: right;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.fa-brands {
+    transition: 0.2s linear;
+    padding: 2rem;
+}
+.fa-brands:hover {
+    transform: scale(1.2);
+}
